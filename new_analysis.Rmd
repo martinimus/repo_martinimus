@@ -1,0 +1,20 @@
+---
+title: "new_analysis"
+author: "Shawn Zamani"
+date: "16/06/2020"
+output: html_document
+---
+
+new analysis
+
+```{r, include=FALSE}
+require(tidyverse)
+require(ggplot2)
+```
+
+```{r}
+mtcars %>% ggplot(aes(hp, mpg)) +
+  geom_point() + 
+  geom_smooth()
+```
+
