@@ -1,0 +1,21 @@
+---
+title: "shawns_changes"
+author: "Shawn Zamani"
+date: "16/06/2020"
+output: html_document
+---
+
+```{r}
+print('github rocks')
+```
+
+```{r}
+cars <- mtcars
+```
+
+```{r}
+plot(cars$speed, cars$dist)
+
+fivenum(cars$dist)
+```
+
